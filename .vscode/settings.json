@@ -1,5 +1,8 @@
 {
     "files.associations": {
         "*.yaml": "home-assistant"
-    }
+    },
+    "python.linting.pylintArgs": [
+        "--disable=C0111"
+    ]
 }
